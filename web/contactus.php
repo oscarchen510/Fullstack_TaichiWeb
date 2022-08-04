@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <title>六清太極拳</title>
+    </head>
+    <body>
+        <section class="sub-header">  
+            <nav>
+                <a href="index.php"><img src="../image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.php">HOME</a></li>
+                        <li><a href="aboutus.php">ABOUT US</a></li>
+                        <li><a href="course.php">COURSE</a></li>
+                        <li><a href="article.php">ARTICLE</a></li>                    
+                        <li><a href="location.php">LOCATION</a></li>                    
+                        <li><a href="contactus.php">CONTACT US</a></li>
+                        <li><a href="login.php">LOGIN</a></li>
+                    </ul>
+                </div>    
+                <i class="fa fa-bars" onclick="showMenu()"></i> <!-- onclick指點擊後要做的事情 -->
+            </nav>
+            <h1>聯絡資訊</h1>
+        </section>
+<!-- ---------ctu--------------- -->
+        <section class="ctu">
+            <h1>聯絡我們</h1>
+            <h3>師父資料</h3>
+            <div class="ctu-information">
+                <img src="../image/師父資料.jpeg">
+            </div>
+        </section>
+
+
+<!-- ---------footer------------ -->
+
+        <section class="footer">
+            <h4>關於我們</h4>
+            <p>介紹</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Oskarchen</p>
+        </section>
+
+
+<!-- Javascript for Toggle menu -->
+        <script>
+            var navLinks=document.getElementById("navLinks")/*這裡指var navLinks 是改變div裡的東西所需要的變數，
+                                                            至於指令在div外面或在裡面的按鍵控制影響的都是div區塊*/
+        function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+            function showMenu(){
+                navLinks.style.right="0"
+            }
+        </script>
+    </body>
+<html>

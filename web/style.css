@@ -1,0 +1,499 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --box-shadow:0 2px 5px rgb(255, 255, 255,1);/*右 下 陰影長度 顏色*/
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(51, 52, 56, 0.7),rgba(56, 54, 51, 0.7)),
+    url(../image/太極拳.jpg);/*左到右顏色變化*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 10px 6%;
+    align-items: center;/* 讓字在最中間 */
+    justify-content: space-between; /* 讓圖片連結跟右邊ul分開 */
+    background-color: #000;
+    box-shadow: var(--box-shadow);
+    
+}
+
+nav img{
+    height: 80px;
+    width: 80px ;
+}
+.nav-links{
+    flex: 1;/*設定方塊的主要格子大小*/
+    text-align:right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block; /* 控制並排的重要元素 */
+    padding: 8px 12px;/*上下 左右*/
+    position: relative;
+    justify-content: space-between;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li a:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);/*固定用法absolute + transform 直接讓CSS設定，放置於圖片50%的地方在中間*/
+    text-align: center;
+    
+}
+.text-box h1{
+    font-size: 55px;
+}
+.text-box p{
+    margin: 30px 0 40px; /*margin 上 左右 下*/
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+nav .fa{
+    display:none;
+}
+
+
+@media(max-width:700px) {
+    .text-box h1{
+        font-size: 36px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index: 2;
+        transition:1s;
+    }
+    nav .fa{
+        display:block;
+        color:#fff;
+        margin:10px;
+        font-size:22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding:30px;
+    }
+}
+/* -----------course---------- */
+.course{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top:100px;
+}
+.course h1{
+    font-size:36px;
+    font-weight:500;
+}
+.course p{
+    font-size:20px;
+    color:#777;
+    font-weight:300;
+    line-height:22px;
+    padding:10px;
+}
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 45%;/*創造一個flexbox(可控制的區塊)，這裡只一個box分到版面的45%*/
+    background:#fff3f3;
+    border-radius: 10px;/*邊框圓弧化*/
+    margin-bottom: 5%;/*下方預留空間*/
+    padding: 20px 12px;/*上下 左右*/
+    box-sizing:border-box;/*border-box(寬高設定作用在邊框外緣的範圍內)。Content-box (寬高設定作用在內容範圍)*/
+    transition:0.5s;
+}
+.course-col:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);/*x軸, y軸, 模糊長度, 四周寬度*/
+}
+.course-col p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.course-col h3{
+    text-align: center;
+    font-size:500;
+    margin:10px 0px;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;/*上面有宣告display:flex，才能用*/
+    }
+}
+
+/* --------enviroment------- */
+
+.enviroment{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top: 50px;
+}
+.enviroment h1{
+    font-size:36px;
+    font-weight:500;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.enviroment-col {
+    flex-basis: 80%;
+    margin-top: 100px;/*上下間距*/
+    border-radius:10px;/*圖片邊緣*/
+    position:relative;
+    overflow: hidden;/*超出格子就不顯示*/
+}
+.enviroment-col img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background:transparent;
+    height:100%;/*顯示高度*/
+    width: 100%;/*顯示寬度*/
+    position: absolute;
+    top: 0;/*從最上面開始出現*/
+    left: 0;/*從最左邊開始出現*/
+    transition: 0.5s;
+}
+.layer:hover{
+    background:rgba(226,0,0,0.5);
+}
+.layer h3{
+    font-size: 30px;
+    font-weight:500;
+    bottom:0;
+    left: 50%;
+    position:absolute;
+    transform:translate(-50%);/*x軸改變*/
+    transition: 0.5s;
+    opacity: 0;
+    color:#fff
+}
+.layer:hover h3{
+    bottom:49%;/*文字出現在底下往上49%的位置*/
+    opacity: 1;
+}
+
+/* --------------contents------------ */
+
+.contents{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top: 100px;
+}
+.contents h1{
+    font-size: 55px;
+}
+.contents p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.contents-col{
+    flex-basis: 45%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.contents-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.contents-col p{
+    padding:0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contents-col h3{
+    font-size: 30px;
+    font-weight:500;
+    margin-top:16px;
+    margin-bottom: 15px;
+    text-align:center;
+}
+
+/* ------------location------------- */
+
+.location{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top: 100px;
+}
+.location h1{
+    font-size: 55px;
+}
+.huwei-location{
+    flex-basis: 45%;
+    border-radius: 10px;
+    margin-bottom:3%;
+    margin-top:5%;
+    text-align: left;
+}
+.huwei-location img{
+    border-radius: 10px;
+    width:100%
+}
+.location p{
+    padding:0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.location h3{
+    font-size: 30px;
+    font-weight:500;
+    margin-top:16px;
+    margin-bottom: 15px;
+    text-align:center;
+}
+
+/* ------------ctu-------------- */
+
+.ctu{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top: 100px;
+}
+.ctu h1{
+    font-size: 55px;
+}
+.ctu h3{
+    font-size: 30px;
+    font-weight:500;
+    margin-top:16px;
+    margin-bottom: 15px;
+    text-align:center;
+}
+.ctu-information img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* ------------footer----------- */
+.footer{
+    width:100%;
+    text-align:center;
+    padding:30px 0px;
+}
+.footer h4{
+    margin-bottom:25px;
+    margin-top:20px;
+    font-weight: 500;
+}
+.icons .fa{
+    color:#f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o{
+    color:#f44336;
+}
+/* -------------about us page------------ */
+
+.sub-header{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(51, 52, 56, 0.7),rgba(56, 54, 51, 0.7)),
+    url(../image/太極拳.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+@media(max-width: 700px){
+    .sub-header{
+        height: 35vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(51, 52, 56, 0.7),rgba(56, 54, 51, 0.7)),
+        url(image/太極拳.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color:#fff;
+    }
+    .sub-header h1{
+        font-weight: 400;
+        width: 80%;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%,-50%);/*固定用法absolute + transform 直接讓CSS設定，放置於圖片50%的地方在中間*/
+        text-align: center;
+    }
+}
+
+
+.sub-header h1{
+    font-size:50px;
+    margin-top: 130px;
+}
+.about-col h1{
+    font-size: 55px;
+}
+.about-col p{
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 49%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;/*上 左右 下*/
+}
+
+
+/* -----------------Login--------------- */
+.login-body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/猴形1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.login-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3); /* 下邊延伸3px */
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+}
+.login-body{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: no-repeat;
+}
+.login-form h1{
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 4px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+.login-btn{
+    color: #fff;;
+    width: 100%;
+    padding:5px;
+    border-radius:20px;
+    font-size: 15px;
+    margin: 10px 0;
+    outline: none;
+    border:none;
+    cursor:pointer;
+    background-color:#1c8adb;
+}
+
+
+
+
+/* -----------------article--------------- */
+
+.image-div{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    max-width: 70%;
+    margin-bottom: 50px;
+    margin-top:100px;
+    border-radius: 5px;
+}
+.video-div{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+video {
+    max-width: 70%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom:50px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.comment{
+    overflow: hidden;
+    border-style: solid;
+    word-wrap: break-word;
+    max-width: 69%;
+    border-radius: 3px;
+    padding:12px;
+    font-size: 20px;
+}
+
+
