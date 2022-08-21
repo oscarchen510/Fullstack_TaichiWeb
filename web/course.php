@@ -19,13 +19,13 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="aboutus.php">ABOUT US</a></li>
-                        <li><a href="course.php">COURSE</a></li>
-                        <li><a href="article.php">ARTICLE</a></li>                    
-                        <li><a href="location.php">LOCATION</a></li>                    
-                        <li><a href="contactus.php">CONTACT US</a></li>
-                        <li><a href="login.php">LOGIN</a></li>
+                        <li><a href="index.php">主頁面</a></li>
+                        <li><a href="aboutus.php">關於我們</a></li>
+                        <li><a href="course.php">課程</a></li>   
+                        <li><a href="article.php">文章</a></li>
+                        <li><a href="location.php">地點</a></li>                    
+                        <li><a href="contactus.php">聯絡我們</a></li>
+                        <li><a href="login.php">登入</a></li>
                     </ul>
                 </div>    
                 <i class="fa fa-bars" onclick="showMenu()"></i> <!-- onclick指點擊後要做的事情 -->
@@ -35,22 +35,23 @@
 
 <!-- ------------------course------------------ -->
 
-        <section class="course">
-            <h1>Courses We Offer</h1>
-            <p>得罪了方丈還想走，點進我的網站還不來上課，我看妳很消剛阿</p>
-            <div class="row">
-                <div class="course-col">
-                    <h3>麥寮六清班</h3>
-                    <p>以武會友，以德服人。在公司被上司欺負嗎?
-                        跟著陳師父的腳步推翻資本主義的淫威。</p>
-                </div>
-                <div class="course-col">
-                    <h3>虎尾內功班</h3>
-                    <p>站如松，坐如鐘，不動不搖，氣吞山河。來體驗過後，保證身體痠痛，四肢無力，
-                        讓你晚上睡好好。</p>
-                </div>
+    <section class="course">
+        <h1>課程相關資訊</h1>
+        <p>招生對象:不限，有興趣即可</p>
+        <p>費用:3500元/人月，一次收三個月</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>麥寮班</h3>
+                <p>練習時間與地點:週三，晚上7:00~8:30<br> 
+                    麥寮六輕工業區活動中心1F韻律教室</p>
             </div>
-        </section>
+            <div class="course-col">
+                <h3>虎尾班</h3>
+                <p>練習時間與地點:周四，晚上8:00~9:30<br>
+                    雲林縣虎尾鎮興南里活動中心2F</p>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -68,7 +69,7 @@
                 <div class="enviroment-col">
                     <img src="../image/虎尾內功場地.png" alt="#">
                     <div class="layer">
-                        <h3>虎尾興南活動中心</h3>
+                        <h3>六清虎尾</h3>
                     </div>
                 </div>
             </div>
@@ -77,17 +78,25 @@
 <!-------------content----------------->
         <section class="contents">
             <h1>課程內容</h1>
-            <p>太極八卦形意..........(內容)</p>
             <div class="row">
                 <div class="contents-col">
                     <img src="../image/推手.jpeg">
                     <h3>推手</h3>
-                    <p>(內容)</p>
+                    <p>推手的練習<br>
+                    1.了解對手力的大小、方向，
+                    訓練接觸力的感知靈敏度。<br>
+                    2.鍛練各關節點的轉動化力。<br>
+                    3.讓對手的力轉成推動你自身的球體能量，
+                    形成滾動或流動，而且結構仍維持完整</p>
                 </div>
                 <div class="contents-col">
                     <img src="../image/站樁矯正.jpg">
                     <h3>站樁</h3>
-                    <p>(內容)</p>
+                    <p>圖為英國Simon學員學習內家拳前後姿勢對照
+                    ，2015/9初學姿勢雖已調過，但因為脊椎變形
+                    仍無法端正，經過11個月的練習，脊椎端正延展
+                    ，整個人神采奕奕變得更年輕。此外姿勢端正了
+                    ，還可避免肩、頸、腰、背疲勞與疼痛。</p>
                 </div>
             </div>
         </section>
@@ -98,8 +107,6 @@
 
             
         <section class="footer">
-            <h4>關於我們</h4>
-            <p>介紹</p>
             <div class="icons">
                 <i class="fa fa-facebook"></i>
                 <i class="fa fa-twitter"></i>

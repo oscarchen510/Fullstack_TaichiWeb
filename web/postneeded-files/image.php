@@ -13,7 +13,7 @@ if (isset($_POST['img-submit']) && isset($_FILES['my_image'])) {
     $tmp_name = $_FILES['my_image']['tmp_name'];
     $error = $_FILES['my_image']['error'];
     $img_size = $_FILES['my_image']['size'];
-    $content = $_POST['content'];
+    $content = htmlspecialchars($_POST['content']);
 
     if($error === 0){
         if($img_size > 2500000){

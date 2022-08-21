@@ -23,23 +23,24 @@ include "./postneeded-files/conn.php";
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="aboutus.php">ABOUT US</a></li>
-                        <li><a href="course.php">COURSE</a></li>   
-                        <li><a href="article.php">ARTICLE</a></li>                 
-                        <li><a href="location.php">LOCATION</a></li>                    
-                        <li><a href="contactus.php">CONTACT US</a></li>
-                        <li><a href="login.php">LOGIN</a></li>
+                        <li><a href="index.php">主頁面</a></li>
+                        <li><a href="aboutus.php">關於我們</a></li>
+                        <li><a href="course.php">課程</a></li>   
+                        <li><a href="article.php">文章</a></li>
+                        <li><a href="location.php">地點</a></li>                    
+                        <li><a href="contactus.php">聯絡我們</a></li>
+                        <li><a href="login.php">登入</a></li>
                     </ul>
                 </div>    
                 <i class="fa fa-bars" onclick="showMenu()"></i> <!-- onclick指點擊後要做的事情 -->
             </nav>
-            <h1>Article</h1>
+            <h1>文章</h1>
     </section>
-
+    
 
 <!-- -------------------------article---------------------------------- -->
-
+    <div class="video-anchor"><a href="https://www.youtube.com/watch?v=pNWvQ6bzMFs" 
+    target="_blank">賀順定師傅的訪談影片</a></div>
     <?php
         $sql = 'SELECT * FROM image ORDER BY id DESC';
         $res = mysqli_query($conn,$sql);
@@ -85,8 +86,6 @@ include "./postneeded-files/conn.php";
 <!-- ---------footer------------ -->
 
 <section class="footer">
-        <h4>關於我們</h4>
-        <p>介紹</p>
         <div class="icons">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-twitter"></i>

@@ -6,6 +6,10 @@
 :root{
     --box-shadow:0 2px 5px rgb(255, 255, 255,1);/*右 下 陰影長度 顏色*/
 }
+.text-b{
+    font-size: 24px;
+    color: red;
+}
 .header{
     min-height: 100vh;
     width: 100%;
@@ -43,7 +47,7 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
 }
 .nav-links ul li a::after{
     content: '';
@@ -58,7 +62,7 @@ nav img{
     width: 100%;
 }
 .text-box{
-    width: 90%;
+    width: 94%;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -82,8 +86,16 @@ nav .fa{
 
 
 @media(max-width:700px) {
+    .text-box{
+        display:block;
+    }
     .text-box h1{
-        font-size: 36px;
+        margin-top:25%;
+        font-size: 32px;
+    }
+    .text-box p {
+        margin: 5% 7% 0;
+        font-size:16px;
     }
     .nav-links ul li{
         display: block;
@@ -109,6 +121,38 @@ nav .fa{
     .nav-links ul{
         padding:30px;
     }
+}
+/* -----------info ------------- */
+.info{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top:100px;
+}
+
+.info h1{
+    font-size:36px;
+    font-weight:500;
+    padding-top:50px;
+}
+.info h2{
+    font-size:28px;
+    color:black;
+    font-weight:300;
+    line-height:32px;
+    padding:10px;
+}
+.info-text{
+    width:100%;
+    text-align: center;
+}
+
+.info p{
+    font-size:25px;
+    color:#777;
+    font-weight:300;
+    line-height:30px;
+    padding:5px;
 }
 /* -----------course---------- */
 .course{
@@ -156,6 +200,9 @@ nav .fa{
 }
 
 @media(max-width: 700px){
+    .info-text{
+        flex-direction: column;
+    }
     .row{
         flex-direction: column;/*上面有宣告display:flex，才能用*/
     }
@@ -299,6 +346,13 @@ nav .fa{
 }
 .ctu h1{
     font-size: 55px;
+}
+.ctu p{
+    font-size:24px;
+    color:#777;
+    font-weight:300;
+    line-height:30px;
+    padding:10px;
 }
 .ctu h3{
     font-size: 30px;
@@ -465,6 +519,22 @@ nav .fa{
     flex-direction: column;
     align-items: center;
 }
+.video-anchor{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5%;
+}
+.video-anchor a{
+    overflow: hidden;
+    border-style: solid;
+    word-wrap: break-word;/* 換行 */
+    max-width: 69%;
+    border-radius: 3px;
+    padding:12px;
+    font-size: 20px;
+}
 .photo{
     max-width: 70%;
     margin-bottom: 50px;
@@ -489,7 +559,7 @@ video {
 .comment{
     overflow: hidden;
     border-style: solid;
-    word-wrap: break-word;
+    word-wrap: break-word;/* 換行 */
     max-width: 69%;
     border-radius: 3px;
     padding:12px;

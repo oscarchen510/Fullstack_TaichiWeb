@@ -19,46 +19,64 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="aboutus.php">ABOUT US</a></li>
-                        <li><a href="course.php">COURSE</a></li>   
-                        <li><a href="article.php">ARTICLE</a></li>
-                        <li><a href="location.php">LOCATION</a></li>                    
-                        <li><a href="contactus.php">CONTACT US</a></li>
-                        <li><a href="login.php">LOGIN</a></li>
+                        <li><a href="index.php">主頁面</a></li>
+                        <li><a href="aboutus.php">關於我們</a></li>
+                        <li><a href="course.php">課程</a></li>   
+                        <li><a href="article.php">文章</a></li>
+                        <li><a href="location.php">地點</a></li>                    
+                        <li><a href="contactus.php">聯絡我們</a></li>
+                        <li><a href="login.php">登入</a></li>
                     </ul>          
                 </div>    
                 <i class="fa fa-bars" onclick="showMenu()"></i> <!-- onclick指點擊後要做的事情 -->
             </nav>
         <div class="text-box">
-            <h1>地表最強武術QQ</h1>
-            <p>　　中国武术是中国传统文化的很重要一环，
-            是中国民族体育的主要内容之一，是几千年来
-            中国人民用以锻炼身体和自卫的一种方法。故称
-            之为功夫，民国初期简称为国术（后为中央国术馆
-            正式采用之名称）；被视为中国汉文化之精粹，故又
-            称国粹。由于历史发展和地域分布关系，衍生出不同武
-            术门派。中国武术主要内容包括搏击技巧、格斗手法、
-            攻防策略和武器使用等技术。当中又分为理论和实践两个
-            范畴。从实践中带来了有关体育、健身、和汉族武术独有之气
-            功、及养生等重要功能。理论中带来了不少前人的经验和拳
-            谱记录。运动形式有套路和对抗等。</p>
+            <h1>六清太極拳成立緣由</h1>
+            <p>每個人接觸太極拳的機緣不同，練習太極拳的原因也不同。好比說我從大學接觸武術社團學習各種拳術，
+                都是想如何練出驚人的力道，一揮手可將人甩的老遠，一拳可震碎幾塊磚，為了能變成武林高手養成每日練拳的習慣，
+                也維持了20幾年。直到有天上班工作累了，假日看見有人打太極拳，想起以前最早學的就是太極拳，
+                跟著比劃做了招”起勢”，剎時間身上累積的壓力與心理的緊繃，隨著兩手緩緩下按而逐漸沉入腳底，
+                才突然覺醒太極拳不是光字面上的＂拳術＂，<b class="text-b">練習太極拳是可以療癒疲憊的身體、放空緊繃的思緒讓身心都輕鬆自在的
+                一種法門</b>。於是我開始認真地去瞭解太極拳。在六輕上班的同仁多多少少因為工作壓力，
+                導致肌肉緊繃、姿勢不良、精神緊張等，也因為這樣的因素在長官與同仁的鼓勵下創設了＂太輕太極拳社＂，藉由下班後的健康社團活動，教大家舒展筋骨、吐故納薪、放鬆心情以恢復活力。隨著教學相長，讓我對於太極拳有了更進一步的體認，於是將[輕]改為[清]，成立了
+                <b class="text-b">” 六清太極拳社 ”。</b>
+            </p>
         </div>
     </section>
+
+    <!-- info -->
+    <section class="info">
+        <h1>六清太極拳的意義</h1>
+        <h2>手清&emsp;步清&emsp;身法清<br>心清&emsp;意清&emsp;一身清</h2>
+        <p>前三清指的是外在修練，後三清則為內在的涵養</p>
+        <h1>學習太極拳的優點</h1>
+        <div class="info-text">
+            <p> 1.	拉伸筋膜，提升肌耐力達到健身的功效。<p>
+            <p> 2.	端正體態、神采奕奕讓身體與精神變年輕。</p>
+            <p> 3.	學習讓身體放鬆，沉靜心靈，釋放長期的諸多壓力。</p>    
+            <p>4.	動作和緩，呼吸舒長較無運動傷害。</p>    
+            <p>5.	具備基本的防身自衛術。</p>    
+            <p>6.	無年齡的限制，小孩、大人可練，退休人士也可練習。</p>    
+            <p>7.	無場地的限制，在家或戶外隨時可練習。</p>    
+            <p>8.	無需花費過多的器材費用。</p>  
+        </div>  
+    </section>
+
     <!-- course -->
     <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>得罪了方丈還想走，點進我的網站還不來上課，我看妳很消剛阿</p>
+        <h1>課程相關資訊</h1>
+        <p>招生對象:不限，有興趣即可</p>
+        <p>費用:3500元/人月，一次收三個月</p>
         <div class="row">
             <div class="course-col">
-                <h3>麥寮六清班</h3>
-                <p>以武會友，以德服人。在公司被上司欺負嗎?
-                    跟著陳師父的腳步推翻資本主義的淫威。</p>
+                <h3>麥寮班</h3>
+                <p>練習時間與地點:週三，晚上7:00~8:30<br> 
+                    麥寮六輕工業區活動中心1F韻律教室</p>
             </div>
             <div class="course-col">
-                <h3>虎尾內功班</h3>
-                <p>站如松，坐如鐘，不動不搖，氣吞山河。來體驗過後，保證身體痠痛，四肢無力，
-                    讓你晚上睡好好。</p>
+                <h3>虎尾班</h3>
+                <p>練習時間與地點:周四，晚上8:00~9:30<br>
+                    雲林縣虎尾鎮興南里活動中心2F</p>
             </div>
         </div>
     </section>
@@ -68,15 +86,15 @@
         <h1>學習場地</h1>
         <div class="col">
             <div class="enviroment-col">
-                <img src="../image/六輕太極拳場地.png" alt="還需更換圖片">
+                <img src="../image/六輕太極拳場地.jpg">
                 <div class="layer">
                     <h3>六清麥寮</h3>
                 </div>
             </div>
             <div class="enviroment-col">
-                <img src="../image/虎尾內功場地.png" alt="#">
+                <img src="../image/虎尾內功場地.png">
                 <div class="layer">
-                    <h3>虎尾興南活動中心</h3>
+                    <h3>六清虎尾</h3>
                 </div>
             </div>
         </div>
@@ -85,17 +103,25 @@
     <!-------------content----------------->
     <section class="contents">
         <h1>課程內容</h1>
-        <p>太極八卦形意..........(內容)</p>
         <div class="row">
             <div class="contents-col">
                 <img src="../image/推手.jpeg">
                 <h3>推手</h3>
-                <p>(內容)</p>
+                <p>推手的練習<br>
+                    1.了解對手力的大小、方向，
+                    訓練接觸力的感知靈敏度。<br>
+                    2.鍛練各關節點的轉動化力。<br>
+                    3.讓對手的力轉成推動你自身的球體能量，
+                    形成滾動或流動，而且結構仍維持完整。</p>
             </div>
             <div class="contents-col">
                 <img src="../image/站樁矯正.jpg">
                 <h3>站樁</h3>
-                <p>(內容)</p>
+                <p>圖為英國Simon學員學習內家拳前後姿勢對照
+                ，2015/9初學姿勢雖已調過，但因為脊椎變形
+                仍無法端正，經過11個月的練習，脊椎端正延展
+                ，整個人神采奕奕變得更年輕。此外姿勢端正了
+                ，還可避免肩、頸、腰、背疲勞與疼痛。</p>
             </div>
         </div>
     </section>
@@ -112,14 +138,21 @@
                 <img src="../image/地點2.jpeg">           
             </div>
         </div>
-        <h3>虎尾內功班練習地點:興南里活動中心</h3>
+        <h3>虎尾班地址:雲林縣虎尾鎮興南里活動中心2F</h3>
         <p>過興南橋後，過全家繼續行駛至看到左側廟宇，前方小路進去即為興南里活動中心</p>
     </section>
 
 <!-- ---------ctu--------------- -->
     <section class="ctu">
         <h1>聯絡我們</h1>
-        <h3>師父資料</h3>
+        <h3>師父介紹</h3>
+        <p><b><u>陳盈村</u></b>師父  習武34年，師承 賀順定教授(孫祿堂師祖台灣傳人)<br>
+            1995年取得教練執照<br>
+            中華民國國術會教練講習班-內家拳講師&內家八卦掌教學影片試範<br>
+            2009全球華人武術內家拳組金牌<br>
+            2013虎尾內家拳武術班<br>
+            2015太極拳班<br>
+        </p>
         <div class="ctu-information">
             <img src="../image/師父資料.jpeg">
         </div>
@@ -129,8 +162,6 @@
 <!-- ---------footer------------ -->
 
     <section class="footer">
-        <h4>關於我們</h4>
-        <p>介紹</p>
         <div class="icons">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-twitter"></i>

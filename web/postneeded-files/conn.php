@@ -6,6 +6,4 @@ $db = "sign-up";
 
 $conn = mysqli_connect($host,$user,$password,$db);
 
-
-
 ?>

@@ -14,7 +14,7 @@ if (isset($_POST['video-submit']) && isset($_FILES['my_video'])) {
     $tmp_name = $_FILES['my_video']['tmp_name'];
     $error = $_FILES['my_video']['error'];
     $video_size = $_FILES['my_video']['size'];
-    $content = $_POST['content']; 
+    $content = htmlspecialchars($_POST['content']);
 
     if($error === 0){
         if($video_size > 1000000000){

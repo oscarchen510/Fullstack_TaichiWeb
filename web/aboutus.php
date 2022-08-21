@@ -19,18 +19,18 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="aboutus.php">ABOUT US</a></li>
-                        <li><a href="course.php">COURSE</a></li>
-                        <li><a href="article.php">ARTICLE</a></li>                    
-                        <li><a href="location.php">LOCATION</a></li>                    
-                        <li><a href="contactus.php">CONTACT US</a></li>
-                        <li><a href="login.php">LOGIN</a></li>
+                        <li><a href="index.php">主頁面</a></li>
+                        <li><a href="aboutus.php">關於我們</a></li>
+                        <li><a href="course.php">課程</a></li>   
+                        <li><a href="article.php">文章</a></li>
+                        <li><a href="location.php">地點</a></li>                    
+                        <li><a href="contactus.php">聯絡我們</a></li>
+                        <li><a href="login.php">登入</a></li>
                     </ul>
                 </div>    
                 <i class="fa fa-bars" onclick="showMenu()"></i> <!-- onclick指點擊後要做的事情 -->
             </nav>
-            <h1>About Us</h1>
+            <h1>關於我們</h1>
     </section>
 
 
@@ -39,18 +39,16 @@
     <section class="about-us">
         <div class="row">
             <div class="about-col">
-            <h1>地表最強武術QQ</h1>
-            <p>　　中国武术是中国传统文化的很重要一环，
-            是中国民族体育的主要内容之一，是几千年来
-            中国人民用以锻炼身体和自卫的一种方法。故称
-            之为功夫，民国初期简称为国术（后为中央国术馆
-            正式采用之名称）；被视为中国汉文化之精粹，故又
-            称国粹。由于历史发展和地域分布关系，衍生出不同武
-            术门派。中国武术主要内容包括搏击技巧、格斗手法、
-            攻防策略和武器使用等技术。当中又分为理论和实践两个
-            范畴。从实践中带来了有关体育、健身、和汉族武术独有之气
-            功、及养生等重要功能。理论中带来了不少前人的经验和拳
-            谱记录。运动形式有套路和对抗等。</p>
+            <h1>六清太極拳成立緣由</h1>
+            <p>每個人接觸太極拳的機緣不同，練習太極拳的原因也不同。好比說我從大學接觸武術社團學習各種拳術，
+                都是想如何練出驚人的力道，一揮手可將人甩的老遠，一拳可震碎幾塊磚，為了能變成武林高手養成每日練拳的習慣，
+                也維持了20幾年。直到有天上班工作累了，假日看見有人打太極拳，想起以前最早學的就是太極拳，
+                跟著比劃做了招”起勢”，剎時間身上累積的壓力與心理的緊繃，隨著兩手緩緩下按而逐漸沉入腳底，
+                才突然覺醒太極拳不是光字面上的＂拳術＂，<b class="text-b">練習太極拳是可以療癒疲憊的身體、放空緊繃的思緒讓身心都輕鬆自在的
+                一種法門</b>。於是我開始認真地去瞭解太極拳。在六輕上班的同仁多多少少因為工作壓力，
+                導致肌肉緊繃、姿勢不良、精神緊張等，也因為這樣的因素在長官與同仁的鼓勵下創設了＂太輕太極拳社＂，藉由下班後的健康社團活動，教大家舒展筋骨、吐故納薪、放鬆心情以恢復活力。隨著教學相長，讓我對於太極拳有了更進一步的體認，於是將[輕]改為[清]，成立了
+                <b class="text-b">” 六清太極拳社 ”。</b>
+            </p>
             </div>
             <div class="about-col">
                 <img src="../image/太極拳.jpg" alt="可放之後介紹相關圖片">
@@ -60,8 +58,6 @@
 
 
      <section class="footer">
-        <h4>關於我們</h4>
-        <p>介紹</p>
         <div class="icons">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-twitter"></i>

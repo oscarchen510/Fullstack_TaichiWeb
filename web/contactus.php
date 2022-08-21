@@ -19,13 +19,13 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="aboutus.php">ABOUT US</a></li>
-                        <li><a href="course.php">COURSE</a></li>
-                        <li><a href="article.php">ARTICLE</a></li>                    
-                        <li><a href="location.php">LOCATION</a></li>                    
-                        <li><a href="contactus.php">CONTACT US</a></li>
-                        <li><a href="login.php">LOGIN</a></li>
+                        <li><a href="index.php">主頁面</a></li>
+                        <li><a href="aboutus.php">關於我們</a></li>
+                        <li><a href="course.php">課程</a></li>   
+                        <li><a href="article.php">文章</a></li>
+                        <li><a href="location.php">地點</a></li>                    
+                        <li><a href="contactus.php">聯絡我們</a></li>
+                        <li><a href="login.php">登入</a></li>
                     </ul>
                 </div>    
                 <i class="fa fa-bars" onclick="showMenu()"></i> <!-- onclick指點擊後要做的事情 -->
@@ -33,20 +33,25 @@
             <h1>聯絡資訊</h1>
         </section>
 <!-- ---------ctu--------------- -->
-        <section class="ctu">
-            <h1>聯絡我們</h1>
-            <h3>師父資料</h3>
-            <div class="ctu-information">
-                <img src="../image/師父資料.jpeg">
-            </div>
-        </section>
+    <section class="ctu">
+        <h1>聯絡我們</h1>
+        <h3>師父介紹</h3>
+        <p><b><u>陳盈村</u></b>師父  習武34年，師承 賀順定教授(孫祿堂師祖台灣傳人)<br>
+            1995年取得教練執照<br>
+            中華民國國術會教練講習班-內家拳講師&內家八卦掌教學影片試範<br>
+            2009全球華人武術內家拳組金牌<br>
+            2013虎尾內家拳武術班<br>
+            2015太極拳班<br>
+        </p>
+        <div class="ctu-information">
+            <img src="../image/師父資料.jpeg">
+        </div>
+    </section>
 
 
 <!-- ---------footer------------ -->
 
         <section class="footer">
-            <h4>關於我們</h4>
-            <p>介紹</p>
             <div class="icons">
                 <i class="fa fa-facebook"></i>
                 <i class="fa fa-twitter"></i>
