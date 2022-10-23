@@ -15,7 +15,7 @@
   <body class="login-body">
     <section class="login-header">  
       <nav>
-          <a href="index.php"><img src="../image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
+          <a href="index.php"><img src="image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
           <div class="nav-links" id="navLinks">
               <i class="fa fa-times" onclick="hideMenu()"></i>
               <ul>
@@ -34,7 +34,7 @@
     
     <div class="login-form">
       <h1>Login</h1>
-      <form action='./postneeded-files/adminconfirm.php' method='POST'>
+      <form action='./web/postneeded-files/adminconfirm.php' method='POST'>
             <input class='input-box' id='email' type='text' placeholder='Your email' name='email' required>
             <input class='input-box' id='password' type='password' placeholder='Your password' name='password' required>
             <p>only for Admin</p>

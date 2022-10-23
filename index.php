@@ -2,6 +2,7 @@
 <html>
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
     <body>
         <section class="header">  
             <nav>
-                <a href="index.php"><img src="../image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
+                <a href="index.php"><img src="image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
@@ -86,13 +87,13 @@
         <h1>學習場地</h1>
         <div class="col">
             <div class="enviroment-col">
-                <img src="../image/六輕太極拳場地.jpg">
+                <img src="image/六輕太極拳場地.jpg">
                 <div class="layer">
                     <h3>六清麥寮</h3>
                 </div>
             </div>
             <div class="enviroment-col">
-                <img src="../image/虎尾內功場地.png">
+                <img src="image/虎尾內功場地.png">
                 <div class="layer">
                     <h3>六清虎尾</h3>
                 </div>
@@ -105,7 +106,7 @@
         <h1>課程內容</h1>
         <div class="row">
             <div class="contents-col">
-                <img src="../image/推手.jpeg">
+                <img src="image/推手.jpeg">
                 <h3>推手</h3>
                 <p>推手的練習<br>
                     1.了解對手力的大小、方向，
@@ -115,7 +116,7 @@
                     形成滾動或流動，而且結構仍維持完整。</p>
             </div>
             <div class="contents-col">
-                <img src="../image/站樁矯正.jpg">
+                <img src="image/站樁矯正.jpg">
                 <h3>站樁</h3>
                 <p>圖為英國Simon學員學習內家拳前後姿勢對照
                 ，2015/9初學姿勢雖已調過，但因為脊椎變形
@@ -132,14 +133,18 @@
         <h1>活動地點</h1>
         <div class="row">
             <div class="huwei-location">
-                <img src="../image/地點1.jpeg">                      
+                <img src="image/地點1.jpeg">                      
             </div>
             <div class="huwei-location">           
-                <img src="../image/地點2.jpeg">           
+                <img src="image/地點2.jpeg">           
             </div>
         </div>
         <h3>虎尾班地址:雲林縣虎尾鎮興南里活動中心2F</h3>
         <p>過興南橋後，過全家繼續行駛至看到左側廟宇，前方小路進去即為興南里活動中心</p>
+        <div class="mai-location">
+                <img src="image/麥寮班照片.jpg">                      
+        </div>
+        <h3>麥寮班地址:活動中心一樓韻律教室</h3>
     </section>
 
 <!-- ---------ctu--------------- -->
@@ -154,7 +159,7 @@
             2015太極拳班<br>
         </p>
         <div class="ctu-information">
-            <img src="../image/師父資料.jpeg">
+            <img src="image/師父資料.jpeg">
         </div>
     </section>
 

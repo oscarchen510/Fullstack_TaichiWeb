@@ -15,7 +15,7 @@
     <body>
         <section class="sub-header">  
             <nav>
-                <a href="index.php"><img src="../image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
+                <a href="index.php"><img src="image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
@@ -39,14 +39,18 @@
         <h1>活動地點</h1>
         <div class="row">
             <div class="huwei-location">
-                <img src="../image/地點1.jpeg">                      
+                <img src="image/地點1.jpeg">                      
             </div>
             <div class="huwei-location">           
-                <img src="../image/地點2.jpeg">           
+                <img src="image/地點2.jpeg">           
             </div>
         </div>
         <h3>虎尾班地址:雲林縣虎尾鎮興南里活動中心2F</h3>
         <p>過興南橋後，過全家繼續行駛至看到左側廟宇，前方小路進去即為興南里活動中心</p>
+        <div class="mai-location">
+                <img src="image/麥寮班照片.jpg">                      
+        </div>
+        <h3>麥寮班地址:活動中心一樓韻律教室</h3>
     </section>
 
 

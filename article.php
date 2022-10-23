@@ -1,5 +1,5 @@
 <?php
-include "./postneeded-files/conn.php";
+include "./web/postneeded-files/conn.php";
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,7 @@ include "./postneeded-files/conn.php";
     <body>
         <section class="sub-header">  
             <nav>
-                <a href="index.php"><img src="../image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
+                <a href="index.php"><img src="image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
@@ -49,7 +49,7 @@ include "./postneeded-files/conn.php";
             while($image = mysqli_fetch_assoc($res)){ ?>
 
                 <div class="image-div">
-                    <img class="photo" src = "./upload-files/<?php echo $image['image_url'];?>">
+                    <img class="photo" src = "./web/upload-files/<?php echo $image['image_url'];?>">
                     <div class="comment"><p><?php echo $image['content'];?></p></div>
                 </div>
             
@@ -62,7 +62,7 @@ include "./postneeded-files/conn.php";
         if(mysqli_num_rows($res)>0){
             while($video = mysqli_fetch_assoc($res)){ ?>
                 <div class="video-div">
-                    <video src="./upload-files/<?php echo $video['video_url']?>"controls>
+                    <video src="./web/upload-files/<?php echo $video['video_url']?>"controls>
                     </video>
                     <div class="comment"><p><?php echo $video['content'];?></p></div>
                 </div>

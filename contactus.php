@@ -15,7 +15,7 @@
     <body>
         <section class="sub-header">  
             <nav>
-                <a href="index.php"><img src="../image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
+                <a href="index.php"><img src="image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
@@ -44,7 +44,7 @@
             2015太極拳班<br>
         </p>
         <div class="ctu-information">
-            <img src="../image/師父資料.jpeg">
+            <img src="image/師父資料.jpeg">
         </div>
     </section>
 

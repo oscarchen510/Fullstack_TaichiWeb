@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
     $a = "admin";
     echo "<script>alert('success');</script>";
     echo "<script>window.open('post.php','_blank')</script>";
-    echo "<script>location.href='../index.php?$a'</script>";
+    echo "<script>location.href='../../index.php?$a'</script>";
   }
   else{
     echo "<script>alert('fail')</script>";

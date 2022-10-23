@@ -8,19 +8,20 @@
 }
 .text-b{
     font-size: 24px;
-    color: red;
+    color:#FFD700;
 }
 .header{
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(51, 52, 56, 0.7),rgba(56, 54, 51, 0.7)),
-    url(../image/太極拳.jpg);/*左到右顏色變化*/
+    url(image/太極拳.jpg);/*左到右顏色變化*/
     background-position: center;
     background-size: cover;
     position: relative;
 }
 nav{
     display: flex;
+    z-index: 9999;
     padding: 10px 6%;
     align-items: center;/* 讓字在最中間 */
     justify-content: space-between; /* 讓圖片連結跟右邊ul分開 */
@@ -64,8 +65,9 @@ nav img{
 .text-box{
     width: 94%;
     color: #fff;
+    max-height: 5vh;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);/*固定用法absolute + transform 直接讓CSS設定，放置於圖片50%的地方在中間*/
     text-align: center;
@@ -75,7 +77,7 @@ nav img{
     font-size: 55px;
 }
 .text-box p{
-    margin: 30px 0 40px; /*margin 上 左右 下*/
+    margin: 22px 0 40px; /*margin 上 左右 下*/
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -86,8 +88,17 @@ nav .fa{
 
 
 @media(max-width:700px) {
+    .header{
+        min-height: 150vh;
+        
+    }
     .text-box{
         display:block;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%,-50%);/*固定用法absolute + transform 直接讓CSS設定，放置於圖片50%的地方在中間*/
+        text-align: center;
     }
     .text-box h1{
         margin-top:25%;
@@ -101,6 +112,7 @@ nav .fa{
         display: block;
     }
     .nav-links{
+        /* display:none; */
         position: absolute;
         background: #f44336;
         height: 100vh;
@@ -120,6 +132,10 @@ nav .fa{
     }
     .nav-links ul{
         padding:30px;
+    }
+    .text-b{
+        font-size: 20px;
+        color:#FFD700;
     }
 }
 /* -----------info ------------- */
@@ -323,6 +339,13 @@ nav .fa{
     border-radius: 10px;
     width:100%
 }
+.mai-location{
+    flex-basis: 80%;
+    margin-top: 100px;/*上下間距*/
+    border-radius:10px;/*圖片邊緣*/
+    position:relative;
+    overflow: hidden;/*超出格子就不顯示*/
+}
 .location p{
     padding:0;
     font-size: 20px;
@@ -392,7 +415,7 @@ nav .fa{
     height: 60vh;
     width: 100%;
     background-image: linear-gradient(rgba(51, 52, 56, 0.7),rgba(56, 54, 51, 0.7)),
-    url(../image/太極拳.jpg);
+    url(image/太極拳.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -458,7 +481,7 @@ nav .fa{
 .login-body{
     margin: 0;
     padding: 0;
-    background-image: url(../image/猴形1.jpg);
+    background-image: url(image/猴形1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

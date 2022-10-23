@@ -15,7 +15,7 @@
     <body>
         <section class="sub-header">  
             <nav>
-                <a href="index.php"><img src="../image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
+                <a href="index.php"><img src="image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
@@ -51,7 +51,7 @@
             </p>
             </div>
             <div class="about-col">
-                <img src="../image/太極拳.jpg" alt="可放之後介紹相關圖片">
+                <img src="image/太極拳.jpg" alt="可放之後介紹相關圖片">
             </div>
         </div>
     </section>

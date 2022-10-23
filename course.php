@@ -15,7 +15,7 @@
     <body>
         <section class="sub-header">  
             <nav>
-                <a href="index.php"><img src="../image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
+                <a href="index.php"><img src="image/六清太極拳-LOGO_.jpg" alt="martial-arts"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
@@ -61,13 +61,13 @@
             <h1>學習場地</h1>
             <div class="col">
                 <div class="enviroment-col">
-                    <img src="../image/六輕太極拳場地.png" alt="還需更換圖片">
+                    <img src="image/六輕太極拳場地.png" alt="還需更換圖片">
                     <div class="layer">
                         <h3>六清麥寮</h3>
                     </div>
                 </div>
                 <div class="enviroment-col">
-                    <img src="../image/虎尾內功場地.png" alt="#">
+                    <img src="image/虎尾內功場地.png" alt="#">
                     <div class="layer">
                         <h3>六清虎尾</h3>
                     </div>
@@ -80,7 +80,7 @@
             <h1>課程內容</h1>
             <div class="row">
                 <div class="contents-col">
-                    <img src="../image/推手.jpeg">
+                    <img src="image/推手.jpeg">
                     <h3>推手</h3>
                     <p>推手的練習<br>
                     1.了解對手力的大小、方向，
@@ -90,7 +90,7 @@
                     形成滾動或流動，而且結構仍維持完整</p>
                 </div>
                 <div class="contents-col">
-                    <img src="../image/站樁矯正.jpg">
+                    <img src="image/站樁矯正.jpg">
                     <h3>站樁</h3>
                     <p>圖為英國Simon學員學習內家拳前後姿勢對照
                     ，2015/9初學姿勢雖已調過，但因為脊椎變形
